@@ -24,7 +24,7 @@ jobs:
     needs: compile
 
     steps:
-    - uses: actions/checkout@v4.
+    - uses: actions/checkout@v4
     - name: Trivy Installation
       run: |
        sudo apt-get install wget apt-transport-https gnupg lsb-release
